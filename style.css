@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Wes FY', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    background-color: #f9f9f9;
+
+}
+a{
+    text-decoration: none;
+}
+
+.logobox{
+    margin: 30px;
+    display: flex;
+    justify-content: center;    
+}
+.logo{
+    margin: auto;
+    height: 50px;
+}
+.headder{
+    margin: auto;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.movie {
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+}
+
+.movie video{
+    position: relative;
+    border-radius: 25px;
+    height: 400px;
+    margin: 50px;
+    overflow: hidden;
+
+}
+.pitch{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,.1);
+    padding: 30px;
+}
+.cards {
+    width: auto;
+    height: 390px;
+    padding: 10px;
+    white-space:nowrap;
+    overflow: hidden;
+    transform: translate(0);
+}
+.carasol{
+    transform: translate(-165px,0);
+    position: relative;
+
+}
+.c-container{
+
+    display: inline-block;  
+}   
+.info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 13px;
+        padding-left: 6px;
+        padding-right: 6px;
+        flex-grow: 1;
+    }
+    .info .social-icon {
+        width: 25px;
+    }
+
+    .info .social-user {
+        color: grey;
+        font-size: 11.5px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        margin-top: 7px;
+    }
+    .info .text{
+        text-align: center;
+        font-weight: 600;
+        margin-top: 8px;
+        font-size: 15px;
+        line-height: 20px;
+        white-space: pre-line;
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+    }
+
+
+.card{
+
+    background-color: #fff;
+    padding: 12px;
+    margin: 10px 7.5px;
+    height: 360px;
+    width: 310px!important;
+    box-shadow: 0 0 12px -5px rgba(0,0,0,.75);
+    border-radius: 8px;
+    display: flex!important;
+    flex-direction: column;
+    position: relative;
+    
+}
+.i1{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+        border-radius: 5px;
+        transition: opacity .4s;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 23px;
+    text-align: center;
+    color: #ff0072;
+}
+
+.text{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+.carasouleText{
+    padding: 20px;
+    margin-top: 10px;
+}
+.cheader{
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.ctext{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}
+.rating-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 40px;
+    
+}
+.stars i{
+    color: #ff0072;
+    font-size: 25px;   
+    font-weight: 700;
+}
+
+.subtitle{
+    margin-top: 5px; 
+    color: #ff0072;
+    font-size: 12px;   
+    font-weight: 700;
+}
+
+.Pitch-guarantee{
+    margin-top: 30px; 
+    color: black;
+    font-size: 20px;   
+    font-weight: 700;
+}
+
+.foot{
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;  
+}
+.foot a{
+    margin-left: 13px;
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14.5px;
+    cursor: pointer;
+    font-weight: 700
+}
+.btn{
+    position: fixed;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    z-index: 1;
+    padding: 15px;
+}
+.button{
+    position: relative;
+    background-color: #ff0072;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: box-shadow .3s,background-color .3s;
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:14px;width:14px;padding:0;background-color: black;margin-right:5px;margin-bottom:10px;border-radius: 50%;}
+.w3-badge:hover{
+    height:14px;width:14px;padding:0;
+    margin-right: 5px;
+    background: white;
+    border: 2px solid black;
+}
+.w3-badge:active,cc{
+    height:14px;width:14px;padding:0;
+
+    background: white;
+    border: 2px solid black;
+}
+.c{
+    display: flex;
+    justify-content: center;
+}
+
+
+
