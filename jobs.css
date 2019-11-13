@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.header{
+    display: flex;
+    width: 80vw;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 45px;
+    justify-content: space-between;
+    font-weight: 1000;
+    color: rgb(128, 128, 128);
+    text-transform: uppercase;
+}
+.nav{
+    display: flex;
+    padding: 10px;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+.nav a{
+    color: rgb(128, 128, 128);
+}
+.logo{
+    flex-grow: 3;
+    align-self: flex-start;
+
+}
+.logo img{
+    height: 35px;
+}
+.team{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.heading{
+    font-size: 27px;
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+.team img{
+    width: 774px;
+}
+.j-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #2272c9;
+    
+}
+.j-place{
+    font-size: 14px;
+    margin-top: 11px;
+    font-weight: 600;
+    color: rgb(122, 124, 133);
+}
+.button{
+    width: 121px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 700;
+
+    background-color: #f07;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color .2s,box-shadow .3s;
+}
+.button:hover{
+    box-shadow: 0 3px 12px rgba(255,21,134,.3);
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    width: 734px;
+    height: 111px;
+    border-bottom: 2px solid rgb(237, 237, 237) ;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+
+}
+.footer{
+    margin: 55px 0 30px;
+    text-align: center;
+}
+.footer a{
+    color: rgb(128, 128, 128);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.footer a:hover{
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
